@@ -16,6 +16,9 @@
   background-color: var(--primary-bg-color);
   font-family: Roboto, 'Open Sans', sans-serif;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 /* Header */
 .logo {
   text-decoration: none;
@@ -152,13 +155,18 @@
 .footer-nav .link:focus {
   color: var(--accent-color);
 }
-/* PORTFOLIO.HTML */
+/* >:G ?:O W:| PORTFOLIO.HTML <:=) j:-O i:K */
 
 /* Portfolio filter */
 .button {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03rem;
 }
 .button:hover,
 .button:focus {
@@ -168,7 +176,17 @@
 /* Portfolio list */
 .portfolio-list .item .title {
   color: var(--title-text-color);
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06rem;
 }
 .portfolio-list .item .description {
   color: var(--primary-text-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  letter-spacing: 0.03rem;
 }
